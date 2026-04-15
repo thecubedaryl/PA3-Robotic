@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="veh" default="$(optenv VEHICLE_NAME autobot01)"/>
+
+  <node pkg="assignment3" type="navigator_node.py" name="assignment3_navigator" output="screen" required="true">
+    <param name="robot_name" value="$(arg veh)"/>
+    <param name="linear_speed" value="0.2"/>
+    <param name="angular_gain" value="1.5"/>
+    <param name="proximity_threshold" value="0.3"/>
+  </node>
+</launch>

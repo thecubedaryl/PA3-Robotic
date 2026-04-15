@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>assignment3</name>
+  <version>0.1.0</version>
+  <description>PA3 — A* maze navigation with AprilTag localization on Duckiebot</description>
+
+  <maintainer email="student@duckietown.org">Student</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>duckietown_msgs</depend>
+  <exec_depend>roslaunch</exec_depend>
+</package>

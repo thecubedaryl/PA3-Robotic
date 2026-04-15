@@ -1,0 +1,30 @@
+# Duckietown DTProject metadata (YAML mirror)
+#
+# `dts devel build` uses the `dtproject` library, which loads:
+#   - Format v3: `.dtproject` plus `dependencies-py3.dt.txt` (template-ros on Daffy)
+#   - Format v4: `dtproject/*.yaml` layer files
+#
+# This repository follows format v3. Keep this file aligned with `.dtproject` and the
+# ARG metadata at the top of `Dockerfile`.
+
+schema: duckietown.dtproject
+format_version: 3
+
+project:
+  name: assignment3
+  version: "0.0.0"
+  description: "PA3 maze navigation with A* and AprilTag localization"
+  maintainer: "Student <student@duckietown.org>"
+  icon: map
+
+distro: daffy
+
+template:
+  type: template-ros
+  type_version: "3"
+
+docker:
+  registry: docker.io
+  organization: duckietown
+  base_repository: dt-ros-commons
+  # BASE_TAG is set at build time as <distro>-<arch> (see Dockerfile)

@@ -1,0 +1,7 @@
+# LIST YOUR APT PACKAGES HERE
+#
+# Currently no extra apt packages (only comments above).
+# Not listed: ros-noetic-apriltag-ros — AprilTag runs in the Duckiebot stack (e.g. dt-core
+# apriltag_detector_node); this DT project image only subscribes to that topic.
+#
+# Base image dt-ros-commons includes ROS, rospy, duckietown_msgs, and typical drivers.
