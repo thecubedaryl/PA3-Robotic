@@ -17,7 +17,7 @@ from duckietown_msgs.msg import AprilTagDetectionArray, Twist2DStamped
 # -----------------------------------------------------------------------------
 # Defaults (overridden by ROS params under ~)
 # -----------------------------------------------------------------------------
-ROBOT_NAME_DEFAULT = "autobot01"
+ROBOT_NAME_DEFAULT = "bear"
 LINEAR_SPEED_DEFAULT = 0.2
 ANGULAR_GAIN_DEFAULT = 1.5
 PROXIMITY_THRESHOLD_DEFAULT = 0.3
