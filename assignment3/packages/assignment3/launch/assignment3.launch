@@ -36,9 +36,9 @@
       If right turns still stall, raise the scales to 1.8 or 2.0, or raise
       min_turn_omega to 0.9. If the robot now over-rotates right, lower them.
     -->
-    <param name="right_turn_omega_scale" value="1.6"/>
+    <param name="right_turn_omega_scale" value="2.0"/>
     <param name="search_right_scale"     value="1.6"/>
-    <param name="min_turn_omega"         value="0.75"/>
+    <param name="min_turn_omega"         value="1.0"/>
 
     <!--
       align_angle_max:
@@ -53,7 +53,7 @@
       (left/right turn expected at the current node); this value is just the
       magnitude. A higher value spins the robot faster while searching.
     -->
-    <param name="search_angular_speed"   value="0.9"/>
+    <param name="search_angular_speed"   value="1.4"/>
     <param name="search_linear_speed"    value="0.0"/>   <!-- pure in-place rotation -->
 
     <!--
